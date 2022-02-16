@@ -6,7 +6,7 @@ function formtable()
     for(let i=1;i<=9;i++)
     {
         if(i%3==1)
-        { 
+        { // punit added a comment here 
 
             document.write("<tr>");
         }
