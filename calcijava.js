@@ -8,7 +8,7 @@ function formtable()
         if(i%3==1)
         { 
 
-            
+            /manvitha added this line
             document.write("<tr>");
         }
         document.write("<td>",i,"</td>");
