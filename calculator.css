@@ -1,0 +1,25 @@
+.ba { background-color:black;
+    color:burlywood;
+    padding:15px 25px;
+     text-align:center;
+     font-size:15px;
+     border-radius: 10px;
+     font-family: 'Quintessential', cursive;
+}
+.ha {
+        font-size:15px;
+        border: 3px solid brown;
+        border-radius: 21px;
+        font-family: 'Quintessential', cursive;
+
+        
+}
+.calcu{
+    background-color:wheat;
+    margin: auto;
+    display: inline-block;
+    border: 2px solid brown;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 15px 15px, rgba(7, 7, 7, 0.23) 0px 6px 6px;
+    border-radius: 10px;
+    border: 3px solid brown;
+}
