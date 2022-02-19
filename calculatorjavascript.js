@@ -25,7 +25,7 @@ document.getElementById("text").value+=value;
  console.log("ans",document.getElementById("text").value);
 }
 
-function cal() {
+function calclation() {
  var val = document.getElementById("text").value;
  var res = eval(val);
  document.getElementById("text").value = res;
