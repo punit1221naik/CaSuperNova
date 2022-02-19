@@ -1,5 +1,5 @@
 function addTable() {
-	document.write("<link rel='stylesheet' type='text/css' href='calculator.css' />");
+	   document.write("<link rel='stylesheet' type='text/css' href='calculator.css' />");
        document.write('<table id="table">');
        document.write('<tr><th colspan=3><input name="input" size="26" id="text"></th>');
        document.write('<th><button class="button" value="C" onclick="clearScreen()">C</button></th></tr>');
@@ -9,13 +9,14 @@ function addTable() {
          if(i%4==1) {
             document.write('<tr>');
         }
-          document.write('<td><button class="button" value=' , arr[i-1] , ' onclick=display(this.value)>',arr[i-1],'</button></td>');    
+        document.write('<td><button class="button" value=' , arr[i-1] , ' onclick=display(this.value)>',arr[i-1],'</button></td>');    
           if(i%4==0) {
             document.write('</tr>');
         }
     }
 } 
- function clearScreen() {
+
+function clearScreen() {
  document.getElementById("text").value = "";
 }
 
