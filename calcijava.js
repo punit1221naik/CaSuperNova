@@ -9,6 +9,7 @@ function formtable()
         { 
 
             /manvitha added this line
+            
             document.write("<tr>");
         }
         document.write("<td>",i,"</td>");

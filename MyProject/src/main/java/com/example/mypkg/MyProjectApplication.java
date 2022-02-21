@@ -11,7 +11,7 @@ public class MyProjectApplication {
     
 	@RequestMapping(value="/")
 	public String index() {
-		return "<h1>Hello sslc<h1>";
+		return "<h1>Hello world!!!<h1>";
 		
 	}
 	
